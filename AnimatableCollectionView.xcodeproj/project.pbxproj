@@ -13,6 +13,7 @@
 		2039D5781FD7F8E000404E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2039D5771FD7F8E000404E6E /* Assets.xcassets */; };
 		2039D57B1FD7F8E000404E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2039D5791FD7F8E000404E6E /* LaunchScreen.storyboard */; };
 		2039D5831FD7F9A400404E6E /* CALayer+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D5821FD7F9A400404E6E /* CALayer+Animations.swift */; };
+		2039D5851FD7FA7C00404E6E /* ScalledCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039D5841FD7FA7C00404E6E /* ScalledCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2039D57A1FD7F8E000404E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2039D57C1FD7F8E000404E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2039D5821FD7F9A400404E6E /* CALayer+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Animations.swift"; sourceTree = "<group>"; };
+		2039D5841FD7FA7C00404E6E /* ScalledCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalledCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2039D5791FD7F8E000404E6E /* LaunchScreen.storyboard */,
 				2039D57C1FD7F8E000404E6E /* Info.plist */,
 				2039D5821FD7F9A400404E6E /* CALayer+Animations.swift */,
+				2039D5841FD7FA7C00404E6E /* ScalledCollectionView.swift */,
 			);
 			path = AnimatableCollectionView;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2039D5731FD7F8E000404E6E /* ViewController.swift in Sources */,
+				2039D5851FD7FA7C00404E6E /* ScalledCollectionView.swift in Sources */,
 				2039D5711FD7F8E000404E6E /* AppDelegate.swift in Sources */,
 				2039D5831FD7F9A400404E6E /* CALayer+Animations.swift in Sources */,
 			);
